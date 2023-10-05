@@ -9,7 +9,6 @@ if __name__ == "__main__":
         print("0 arguments.")
     elif ac == 1:
         print("1 argument:")
-        print("1: {}".format(args[0]))
     else:
         print("{} arguments:".format(ac))
     for x in range(ac):
