@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" This module defines a Square class """
+""" This module defines a Square class. """
 
 
 class Square:
@@ -9,10 +9,10 @@ class Square:
         """Initializer
 
         Args:
-            size: the size of square
+            size: the size of square.
         Raises:
             TypeError: if size is not an integer.
-            ValueError: if size is less than zero
+            ValueError: if size is less than zero.
         """
         if not isinstance(size, int):
             raise TypeError('size must be an integer')
