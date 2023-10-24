@@ -6,13 +6,7 @@ class Square:
     """ A class that represents a square. """
 
     def __init__(self, size=0):
-        """Initializer
-        arguments:
-            size: the size of square
-        raise:
-            TypeError: if size is not an integer.
-            ValueError: if size is less than zero
-        """
+        """Initializer"""
         if not isinstance(size, int):
             raise TypeError("Size must be an integer")
         if size < 0:
