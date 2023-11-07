@@ -28,3 +28,12 @@ class Student:
                 return myDict
         else:
             return self.__dict__
+
+    def reload_from_json(self, json):
+        """
+        Replaces all attributes of the Student
+        instance with the values from a dictionary.
+        """
+        for key in json:
+            if type(key) is str and key in self.__dict__:
+                self.__dict__[key] = json[key]
