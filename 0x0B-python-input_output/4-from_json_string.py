@@ -7,4 +7,4 @@ import json
 
 def from_json_string(my_str):
     """object represented by a JSON string function"""
-    return json.loads(imy_str)
+    return json.loads(my_str)
