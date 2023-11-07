@@ -20,7 +20,7 @@ class Student:
             if type(attrs) is not list:
                 return self.__dict__
             else:
-                myDict = dict{}
+                myDict = {}
                 for attr in attrs:
                     if type(attr) is not str or attr not in self.__dict__:
                         continue
