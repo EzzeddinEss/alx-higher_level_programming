@@ -2,6 +2,7 @@
 """A model for a subclass that inherits from Rectangle"""
 from models.rectangle import Rectangle
 
+
 class Square(Rectangle):
     """a subclass from rectangle class"""
 
@@ -16,5 +17,4 @@ class Square(Rectangle):
                 self.id,
                 self.x,
                 self.y,
-                self.width,
-                self.height)
+                self.width)
